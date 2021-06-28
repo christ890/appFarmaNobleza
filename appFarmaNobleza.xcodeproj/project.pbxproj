@@ -3,19 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180BF0E72688FD1B008DF6BA /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180BF0E62688FD1B008DF6BA /* CellTableViewCell.swift */; };
+		180BF0EA26890131008DF6BA /* productoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180BF0E926890131008DF6BA /* productoModel.swift */; };
+		181A53F626848A3B00128DBF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181A53F426848A3A00128DBF /* RegisterViewController.swift */; };
+		181A53F726848A3B00128DBF /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181A53F526848A3B00128DBF /* RegisterViewController.xib */; };
 		184924F8268410C900B7A188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184924F7268410C900B7A188 /* AppDelegate.swift */; };
 		184924FA268410C900B7A188 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184924F9268410C900B7A188 /* SceneDelegate.swift */; };
 		184924FC268410C900B7A188 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184924FB268410C900B7A188 /* ViewController.swift */; };
 		184924FF268410C900B7A188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184924FD268410C900B7A188 /* Main.storyboard */; };
 		18492501268410CA00B7A188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18492500268410CA00B7A188 /* Assets.xcassets */; };
 		18492504268410CA00B7A188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18492502268410CA00B7A188 /* LaunchScreen.storyboard */; };
+		1849250C2684119D00B7A188 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1849250B2684119D00B7A188 /* GoogleService-Info.plist */; };
+		186151DA268978D600CC526D /* CarritoCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186151D9268978D600CC526D /* CarritoCellTableViewCell.swift */; };
+		48E304F674F2B5A042DF9587 /* Pods_appFarmaNobleza.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8069474F441A9A164F43A1 /* Pods_appFarmaNobleza.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12DF7BB1D5804ABF018C3A67 /* Pods-appFarmaNobleza.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appFarmaNobleza.release.xcconfig"; path = "Target Support Files/Pods-appFarmaNobleza/Pods-appFarmaNobleza.release.xcconfig"; sourceTree = "<group>"; };
+		180BF0E62688FD1B008DF6BA /* CellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
+		180BF0E926890131008DF6BA /* productoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productoModel.swift; sourceTree = "<group>"; };
+		181A53F426848A3A00128DBF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		181A53F526848A3B00128DBF /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		184924F4268410C900B7A188 /* appFarmaNobleza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appFarmaNobleza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		184924F7268410C900B7A188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		184924F9268410C900B7A188 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,10 @@
 		18492500268410CA00B7A188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18492503268410CA00B7A188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18492505268410CA00B7A188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1849250B2684119D00B7A188 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		186151D9268978D600CC526D /* CarritoCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoCellTableViewCell.swift; sourceTree = "<group>"; };
+		AB8069474F441A9A164F43A1 /* Pods_appFarmaNobleza.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appFarmaNobleza.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B2D18ECBB649690E901C54 /* Pods-appFarmaNobleza.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appFarmaNobleza.debug.xcconfig"; path = "Target Support Files/Pods-appFarmaNobleza/Pods-appFarmaNobleza.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E304F674F2B5A042DF9587 /* Pods_appFarmaNobleza.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1065AC3DF6C48EAB81497FA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB8069474F441A9A164F43A1 /* Pods_appFarmaNobleza.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		180BF0E826890116008DF6BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				180BF0E926890131008DF6BA /* productoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		184924EB268410C900B7A188 = {
 			isa = PBXGroup;
 			children = (
 				184924F6268410C900B7A188 /* appFarmaNobleza */,
 				184924F5268410C900B7A188 /* Products */,
+				63449D7ACF0451984E984999 /* Pods */,
+				1065AC3DF6C48EAB81497FA1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +91,9 @@
 		184924F6268410C900B7A188 /* appFarmaNobleza */ = {
 			isa = PBXGroup;
 			children = (
+				186151D62689786700CC526D /* celdas */,
+				180BF0E826890116008DF6BA /* Model */,
+				1849250B2684119D00B7A188 /* GoogleService-Info.plist */,
 				184924F7268410C900B7A188 /* AppDelegate.swift */,
 				184924F9268410C900B7A188 /* SceneDelegate.swift */,
 				184924FB268410C900B7A188 /* ViewController.swift */,
@@ -63,8 +101,28 @@
 				18492500268410CA00B7A188 /* Assets.xcassets */,
 				18492502268410CA00B7A188 /* LaunchScreen.storyboard */,
 				18492505268410CA00B7A188 /* Info.plist */,
+				181A53F426848A3A00128DBF /* RegisterViewController.swift */,
+				181A53F526848A3B00128DBF /* RegisterViewController.xib */,
 			);
 			path = appFarmaNobleza;
+			sourceTree = "<group>";
+		};
+		186151D62689786700CC526D /* celdas */ = {
+			isa = PBXGroup;
+			children = (
+				180BF0E62688FD1B008DF6BA /* CellTableViewCell.swift */,
+				186151D9268978D600CC526D /* CarritoCellTableViewCell.swift */,
+			);
+			path = celdas;
+			sourceTree = "<group>";
+		};
+		63449D7ACF0451984E984999 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2B2D18ECBB649690E901C54 /* Pods-appFarmaNobleza.debug.xcconfig */,
+				12DF7BB1D5804ABF018C3A67 /* Pods-appFarmaNobleza.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +132,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18492508268410CA00B7A188 /* Build configuration list for PBXNativeTarget "appFarmaNobleza" */;
 			buildPhases = (
+				16B2C91156CFB027F0DE79BB /* [CP] Check Pods Manifest.lock */,
 				184924F0268410C900B7A188 /* Sources */,
 				184924F1268410C900B7A188 /* Frameworks */,
 				184924F2268410C900B7A188 /* Resources */,
+				D30215F5DD3E74B5E08366E4 /* [CP] Embed Pods Frameworks */,
+				787F9EA7BD62649C611B54D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +186,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				18492504268410CA00B7A188 /* LaunchScreen.storyboard in Resources */,
+				181A53F726848A3B00128DBF /* RegisterViewController.xib in Resources */,
+				1849250C2684119D00B7A188 /* GoogleService-Info.plist in Resources */,
 				18492501268410CA00B7A188 /* Assets.xcassets in Resources */,
 				184924FF268410C900B7A188 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +195,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16B2C91156CFB027F0DE79BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-appFarmaNobleza-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		787F9EA7BD62649C611B54D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appFarmaNobleza/Pods-appFarmaNobleza-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appFarmaNobleza/Pods-appFarmaNobleza-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appFarmaNobleza/Pods-appFarmaNobleza-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D30215F5DD3E74B5E08366E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appFarmaNobleza/Pods-appFarmaNobleza-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-appFarmaNobleza/Pods-appFarmaNobleza-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appFarmaNobleza/Pods-appFarmaNobleza-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		184924F0268410C900B7A188 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180BF0E72688FD1B008DF6BA /* CellTableViewCell.swift in Sources */,
+				180BF0EA26890131008DF6BA /* productoModel.swift in Sources */,
 				184924FC268410C900B7A188 /* ViewController.swift in Sources */,
 				184924F8268410C900B7A188 /* AppDelegate.swift in Sources */,
+				186151DA268978D600CC526D /* CarritoCellTableViewCell.swift in Sources */,
 				184924FA268410C900B7A188 /* SceneDelegate.swift in Sources */,
+				181A53F626848A3B00128DBF /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +409,7 @@
 		};
 		18492509268410CA00B7A188 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2B2D18ECBB649690E901C54 /* Pods-appFarmaNobleza.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +428,7 @@
 		};
 		1849250A268410CA00B7A188 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12DF7BB1D5804ABF018C3A67 /* Pods-appFarmaNobleza.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
